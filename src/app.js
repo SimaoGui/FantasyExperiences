@@ -3,12 +3,12 @@ import HomePage from "./pages/home.js";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/FantasyExperiences">
       <Routes>
         <Route path="/home" element={<HomePage />} />
 
         {/* <Route path="/sobre" element={<AboutPage />} /> */}
-        
+
         <Route path="/SimaoGui/FantasyExperiences" element={<HomePage />} />
         <Route path="*" element={<Navigate to="/home" />} />
       </Routes>

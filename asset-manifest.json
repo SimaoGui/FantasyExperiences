@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SimaoGui/FantasyExperiences/static/css/main.c78770f8.css",
-    "main.js": "/SimaoGui/FantasyExperiences/static/js/main.696d55d9.js",
+    "main.css": "/SimaoGui/FantasyExperiences/static/css/main.882d71df.css",
+    "main.js": "/SimaoGui/FantasyExperiences/static/js/main.4e658f01.js",
     "index.html": "/SimaoGui/FantasyExperiences/index.html",
-    "main.c78770f8.css.map": "/SimaoGui/FantasyExperiences/static/css/main.c78770f8.css.map",
-    "main.696d55d9.js.map": "/SimaoGui/FantasyExperiences/static/js/main.696d55d9.js.map"
+    "main.882d71df.css.map": "/SimaoGui/FantasyExperiences/static/css/main.882d71df.css.map",
+    "main.4e658f01.js.map": "/SimaoGui/FantasyExperiences/static/js/main.4e658f01.js.map"
   },
   "entrypoints": [
-    "static/css/main.c78770f8.css",
-    "static/js/main.696d55d9.js"
+    "static/css/main.882d71df.css",
+    "static/js/main.4e658f01.js"
   ]
 }

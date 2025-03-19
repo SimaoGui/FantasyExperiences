@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FantasyExperiences/static/css/main.882d71df.css",
+    "main.css": "/FantasyExperiences/static/css/main.c10ad66b.css",
     "main.js": "/FantasyExperiences/static/js/main.8ebdebd8.js",
     "index.html": "/FantasyExperiences/index.html",
-    "main.882d71df.css.map": "/FantasyExperiences/static/css/main.882d71df.css.map",
+    "main.c10ad66b.css.map": "/FantasyExperiences/static/css/main.c10ad66b.css.map",
     "main.8ebdebd8.js.map": "/FantasyExperiences/static/js/main.8ebdebd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.882d71df.css",
+    "static/css/main.c10ad66b.css",
     "static/js/main.8ebdebd8.js"
   ]
 }

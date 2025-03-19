@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/SimaoGui/FantasyExperiences/issues"
   },
-  "homepage": "https://github.com/SimaoGui/FantasyExperiences#readme",
+  "homepage": "https://github.com/SimaoGui/FantasyExperiences",
   "description": "",
   "dependencies": {
     "react": "^19.0.0",

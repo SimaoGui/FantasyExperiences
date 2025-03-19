@@ -6,7 +6,13 @@ function App() {
     <Router>
       <Routes>
         <Route path="/home" element={<HomePage />} />
+
+        {/* <Route path="/sobre" element={<AboutPage />} /> */}
+        
+        <Route path="/SimaoGui/FantasyExperiences" element={<HomePage />} />
+        <Route path="*" element={<Navigate to="/home" />} />
       </Routes>
+
     </Router>
 
   );

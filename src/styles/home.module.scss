@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+$background-color: #121212;
+$header-color: #1B2838;
+$text-color: #E0E0E0;
+$effect-color: #BB86FC;
+$header-font: "Lora", serif;
+$text-font:  "Merriweather", serif;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #E0E0E0;
+    font-family: $text-font;
+}
+
+body {
+    background-color: $background-color;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    & header {
+        top: 0px;
+        background: linear-gradient(180deg, $header-color, transparent);
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100vw;
+        gap: 6px;
+        z-index: 2;
+
+        & .logoDiv {
+            width: 35%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & a {
+                width: 150px;
+                align-self: center;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                border: none;
+                transition: all 250ms ease;
+                font-size: 1.25rem;
+                padding: 1rem;
+                margin: 0.25rem;
+                font-family: $header-font !important;
+
+                &:hover {
+                    color: $effect-color;
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        & .menuNav {
+            width: 450px;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0.25rem;
+            gap: 4px;
+
+            & a {
+                width: auto;
+                align-self: center;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                border: none;
+                transition: all 250ms ease;
+                font-size: 1.1rem;
+                padding: .25rem;
+                margin: 0.25rem;
+                font-family: $header-font !important;
+
+                &:hover {
+                    color: $effect-color;
+                    transform: translateY(-3px);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    main {
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+
+        & .card {
+            position: relative;
+            min-width: 320px;
+            height: 440px;
+            box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+                        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+                        5px 5px 15px rgba(0, 0, 0, 0.3),
+                        -5px -5px 15px rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin: 30px;
+
+            & .box {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                left: 20px;
+                bottom: 20px;
+                background-color: #2a2b2f;
+                border: 2px solid #1e1f23;
+                border-radius: 15px;
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+                transition: all 500ms ease-in-out;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    transform: translateY(-40px);
+                    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+                }
+
+                & .content {
+                    padding: 20px;
+                    text-align: center;
+                    
+                    & h2 {
+                        position: absolute;
+                        top: -10px;
+                        right: 30px;
+                        font-size: 8rem;
+                        color: rgba(187, 134, 252, 0.125);
+                    }
+
+                    & h3 {
+                        font-size: 1.8rem;
+                        color: $text-color;
+                        z-index: 1;
+                        transition: all 500ms ease;
+                        text-align: center;
+                    }
+
+                    & p {
+                        margin: 1rem 0;
+                        font-size: 15px;
+                        font-weight: 300;
+                        color: $text-color;
+                        z-index: 1;
+                        transition: all 500ms ease;
+                        text-align: justify;
+                    } 
+                    
+                    & a {
+                        position: relative;
+                        display: inline-block;
+                        padding: 8px 20px;
+                        background-color: $effect-color;
+                        margin-top: 10px;
+                        border-radius: 20px;
+                        text-decoration: none;
+                        font-weight: 400;
+                        color: $text-color;
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+                    }
+                }
+            }
+        }
+    }
+}

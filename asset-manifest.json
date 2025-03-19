@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SimaoGui/FantasyExperiences/static/css/main.c78770f8.css",
+    "main.js": "/SimaoGui/FantasyExperiences/static/js/main.9b918b35.js",
+    "index.html": "/SimaoGui/FantasyExperiences/index.html",
+    "main.c78770f8.css.map": "/SimaoGui/FantasyExperiences/static/css/main.c78770f8.css.map",
+    "main.9b918b35.js.map": "/SimaoGui/FantasyExperiences/static/js/main.9b918b35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c78770f8.css",
+    "static/js/main.9b918b35.js"
+  ]
+}
